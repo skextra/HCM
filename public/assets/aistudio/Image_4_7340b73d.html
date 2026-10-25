@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><title>PulseHR Enterprise</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-error-container": "#93000a", "surface-container-high": "#dce9ff", "inverse-surface": "#213145", "secondary": "#0058be", "surface-container": "#e5eeff", "tertiary-fixed": "#6ffbbe", "on-error": "#ffffff", "tertiary": "#00311f", "surface-variant": "#d3e4fe", "primary-container": "#1e3a8a", "on-primary-fixed": "#00164e", "tertiary-container": "#004a31", "inverse-on-surface": "#eaf1ff", "background": "#f8f9ff", "error": "#ba1a1a", "on-background": "#0b1c30", "on-surface-variant": "#444651", "outline": "#757682", "surface-container-highest": "#d3e4fe", "outline-variant": "#c5c5d3", "on-surface": "#0b1c30", "on-tertiary-fixed": "#002113", "on-tertiary": "#ffffff", "secondary-container": "#2170e4", "error-container": "#ffdad6", "on-primary-container": "#90a8ff", "on-tertiary-container": "#27c38a", "surface-dim": "#cbdbf5", "surface-bright": "#f8f9ff", "secondary-fixed-dim": "#adc6ff", "on-secondary-fixed": "#001a42", "primary": "#00236f", "surface": "#f8f9ff", "on-secondary": "#ffffff", "primary-fixed": "#dce1ff", "on-secondary-container": "#fefcff", "tertiary-fixed-dim": "#4edea3", "on-primary-fixed-variant": "#264191", "primary-fixed-dim": "#b6c4ff", "on-primary": "#ffffff", "surface-tint": "#4059aa", "inverse-primary": "#b6c4ff", "surface-container-lowest": "#ffffff", "on-secondary-fixed-variant": "#004395", "on-tertiary-fixed-variant": "#005236", "surface-container-low": "#eff4ff", "secondary-fixed": "#d8e2ff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-md": "1rem", "gutter": "1rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-xl": "2rem", "margin": "1rem" }, "fontFamily": { "display-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"] }, "fontSize": { "display-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }] } } } }</script><style>@layer base{html,body{width:100%;margin:0;padding:0;background-color:#f8f9ff;font-family:'Plus Jakarta Sans',sans-serif;color:#0b1c30;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface antialiased min-h-full flex flex-col"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="PulseHR Enterprise Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKiQ6lkYnE8GaCIFU_KEH_4jM4vaxZxHm_9DRhvbOE5hGYDhTUaKw_-X3Hr22_BYl-bpL5vuW15jfUwvbfm-39V7XvVSDlGiome0QmHje3XQE6rzcU7MeJXfSv_COsxDUoXdPP3jDvUUbMwTYtwxKCBBzGhbVTwNRzgqdb-lMH9oShKyWkE2pH9TtepuvFbYgKAlotx9JBDbq3oxnGRq-b-2RD90mD6oTOnvKnJYLpildEtUTzeCTW"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight">PulseHR</span><span class="mx-space-xs text-outline-variant font-body-sm">/</span><h1 class="font-label-lg text-label-lg text-on-surface-variant truncate max-w-[130px]">Attendance</h1></div><div class="flex items-center gap-space-xs"><button aria-label="Notifications" class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-error"></span></button><button aria-label="Profile" class="w-11 h-11 flex items-center justify-center rounded-full hover:bg-surface-container transition-colors" type="button"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgIEeoFe2jU8Ksz8YFjZ_dbaRFkCWkgZ6km6K1-x1QZN6ZEpNljVBlxpszOgg-EilW1qaLX8hRyazeLGj2JRLZZQeoFob5SfCrbWaptugpr0TQp6V737mSaFBD69dmeo9hGR_DB1ruZkJfHssr6S9uSOydVol0WfPt2Alla9Gm8MU3rmphoH_4mJX8SZ8C_wSA_s4qNfLvawtH-BsOzDkFSTHdbBKYfVx7daOTZHVX3aQWwAydu7ia"/></button></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-20 bg-surface"><div class="flex flex-col w-full pb-6 px-gutter">
+<!-- Month Selector & Global Status Pills -->
+<div class="flex flex-col gap-space-sm pt-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<h2 class="font-headline-md text-headline-md text-on-surface">October 2024</h2>
+<span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Q4</span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-lowest rounded-full p-1 shadow-sm">
+<button aria-label="Previous month" class="w-8 h-8 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button aria-label="Next month" class="w-8 h-8 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Monthly Summary Stat Pills (Horizontal scrolling strip) -->
+<div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar py-0.5 -mx-gutter px-gutter">
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-tertiary-container/15 text-tertiary whitespace-nowrap shadow-sm">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>
+<span class="font-label-md text-label-md">20 Present</span>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-highest text-on-surface-variant whitespace-nowrap">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span class="font-label-md text-label-md text-on-surface">1 Late</span>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant whitespace-nowrap">
+<span class="w-2 h-2 rounded-full bg-outline"></span>
+<span class="font-label-md text-label-md">0 Absent</span>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary-fixed/40 text-on-primary-fixed-variant whitespace-nowrap">
+<span class="material-symbols-outlined text-[13px] text-primary">celebration</span>
+<span class="font-label-md text-label-md">2 Holidays</span>
+</div>
+</div>
+</div>
+<!-- Weekly Attendance Strip -->
+<div class="mt-space-md bg-surface-container-lowest rounded-2xl p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant">WEEK 43 (OCT 21 - 25)</span>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">tune</span> View Calendar
+      </span>
+</div>
+<div class="grid grid-cols-5 gap-2 text-center">
+<!-- Mon 21 -->
+<div class="flex flex-col items-center py-2 px-1 rounded-xl bg-surface-container-low transition-colors">
+<span class="font-label-sm text-label-sm text-on-surface-variant">MON</span>
+<span class="font-headline-sm text-headline-sm text-on-surface mt-0.5">21</span>
+<div class="w-2 h-2 rounded-full bg-on-tertiary-container mt-1.5"></div>
+</div>
+<!-- Tue 22 -->
+<div class="flex flex-col items-center py-2 px-1 rounded-xl bg-surface-container-low transition-colors">
+<span class="font-label-sm text-label-sm text-on-surface-variant">TUE</span>
+<span class="font-headline-sm text-headline-sm text-on-surface mt-0.5">22</span>
+<div class="w-2 h-2 rounded-full bg-secondary-container mt-1.5"></div>
+</div>
+<!-- Wed 23 -->
+<div class="flex flex-col items-center py-2 px-1 rounded-xl bg-surface-container-low transition-colors">
+<span class="font-label-sm text-label-sm text-on-surface-variant">WED</span>
+<span class="font-headline-sm text-headline-sm text-on-surface mt-0.5">23</span>
+<div class="w-2 h-2 rounded-full bg-on-tertiary-container mt-1.5"></div>
+</div>
+<!-- Thu 24 (Active Today) -->
+<div class="flex flex-col items-center py-2 px-1 rounded-xl bg-primary text-on-primary shadow-md relative scale-105">
+<span class="font-label-sm text-label-sm text-primary-fixed">THU</span>
+<span class="font-headline-sm text-headline-sm text-on-primary font-bold mt-0.5">24</span>
+<div class="w-2 h-2 rounded-full bg-tertiary-fixed-dim mt-1.5 shadow-[0_0_8px_rgba(111,251,190,0.8)]"></div>
+<span class="absolute -top-1.5 -right-1 px-1 py-0.2 rounded-full bg-tertiary-container text-tertiary-fixed font-label-sm text-[9px] uppercase tracking-wider">Today</span>
+</div>
+<!-- Fri 25 -->
+<div class="flex flex-col items-center py-2 px-1 rounded-xl bg-surface-container-lowest opacity-70">
+<span class="font-label-sm text-label-sm text-on-surface-variant">FRI</span>
+<span class="font-headline-sm text-headline-sm text-on-surface mt-0.5">25</span>
+<div class="w-2 h-2 rounded-full bg-outline-variant mt-1.5"></div>
+</div>
+</div>
+<!-- Active Day Status Banner -->
+<div class="mt-space-md p-2.5 rounded-xl bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-on-tertiary-container opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-on-tertiary-container"></span>
+</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">On Time • 08:55 AM</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Currently active at HQ Main Campus</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-primary font-label-sm text-label-sm shadow-sm">
+        In Progress
+      </span>
+</div>
+</div>
+<!-- Working Hours KPI Summary Card -->
+<div class="mt-space-md bg-surface-container-lowest rounded-2xl p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">timelapse</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Working Hours KPI</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Cycle Closes in 7d</span>
+</div>
+<!-- Main Progress Indicator -->
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-2">
+<div class="flex justify-between items-baseline">
+<span class="font-body-md text-body-md text-on-surface-variant">Total Logged</span>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md text-primary font-bold">168.5</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ 176 hrs</span>
+</div>
+</div>
+<!-- Custom Progress Bar -->
+<div class="w-full h-3 rounded-full bg-surface-container-highest overflow-hidden p-0.5">
+<div class="h-full rounded-full bg-primary-container transition-all duration-500 ease-out" style="width: 95%;"></div>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span class="font-label-sm text-label-sm text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-tertiary">check_circle</span> 95.7% required pace
+        </span>
+<span class="font-label-sm text-label-sm">7.5 hrs remaining</span>
+</div>
+</div>
+<!-- Secondary KPI Splits -->
+<div class="grid grid-cols-2 gap-space-sm mt-space-sm">
+<div class="p-space-sm rounded-xl bg-surface-container flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">speed</span> Avg Daily Hours
+        </span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">8h 25m</span>
+<span class="font-body-sm text-body-sm text-on-tertiary-container mt-0.5">+15m vs target</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">more_time</span> Overtime Logged
+        </span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold mt-1">+6.5 hrs</span>
+<span class="font-body-sm text-body-sm text-primary mt-0.5">Approved &amp; Billable</span>
+</div>
+</div>
+</div>
+<!-- Today's Detailed Shift Log Breakdown -->
+<div class="mt-space-md bg-surface-container-lowest rounded-2xl p-space-md shadow-sm">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">badge</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Today's Shift Log</h3>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+        Oct 24, 2024
+      </span>
+</div>
+<div class="space-y-space-sm pt-space-xs">
+<!-- Item 1: Shift Type -->
+<div class="flex items-center justify-between p-2.5 rounded-xl bg-surface-container-low">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">calendar_view_day</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Shift Category</span>
+<span class="font-label-lg text-label-lg text-on-surface">General Standard</span>
+</div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">09:00 AM - 06:00 PM</span>
+</div>
+<!-- Item 2: Check-In Details -->
+<div class="flex items-center justify-between p-2.5 rounded-xl bg-surface-container-low">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-tertiary-container/20 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[18px]">login</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Check-In Time</span>
+<span class="font-label-lg text-label-lg text-on-surface">08:55 AM</span>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-tertiary flex items-center justify-end gap-1">
+<span class="material-symbols-outlined text-[14px]">face</span> Face ID Verified
+          </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">HQ Main Gate</span>
+</div>
+</div>
+<!-- Item 3: Break Session -->
+<div class="flex items-center justify-between p-2.5 rounded-xl bg-surface-container-low">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[18px]">coffee</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Break Duration</span>
+<span class="font-label-lg text-label-lg text-on-surface">45m utilized</span>
+</div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">1:00 PM - 1:45 PM</span>
+</div>
+<!-- Item 4: Expected Departure -->
+<div class="flex items-center justify-between p-2.5 rounded-xl bg-surface-container-low">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[18px]">logout</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Expected Check-Out</span>
+<span class="font-label-lg text-label-lg text-on-surface">06:00 PM</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">Automated</span>
+</div>
+</div>
+</div>
+<!-- Recent Attendance Logs List -->
+<div class="mt-space-md">
+<div class="flex items-center justify-between mb-space-sm px-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Recent Logs</h3>
+<button class="font-label-md text-label-md text-secondary hover:underline" type="button">
+        Detailed History
+      </button>
+</div>
+<div class="space-y-space-xs">
+<!-- Yesterday (Oct 23) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-tertiary-container/15 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[20px]">check</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface">Yesterday (Oct 23)</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">08:58 AM - 06:12 PM • 9h 14m</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-container/15 text-tertiary font-label-sm text-label-sm flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span> Present
+        </span>
+</div>
+<!-- Tue, Oct 22 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface">Tue, Oct 22</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">09:12 AM - 06:05 PM • 8h 53m</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span> Late 12m
+        </span>
+</div>
+<!-- Mon, Oct 21 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-tertiary-container/15 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[20px]">check</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface">Mon, Oct 21</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">08:50 AM - 06:00 PM • 9h 10m</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-container/15 text-tertiary font-label-sm text-label-sm flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span> Present
+        </span>
+</div>
+</div>
+</div>
+<!-- Bottom Quick Action / Regularize Attendance Card -->
+<div class="mt-space-lg mb-space-sm">
+<div class="p-space-md bg-gradient-to-r from-surface-container-low to-surface-container rounded-2xl flex flex-col gap-3 shadow-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[20px]">cloud_upload</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Missed a Punch or Shift?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Submit regularizations before the 28th cutoff.</p>
+</div>
+</div>
+</div>
+<button class="w-full h-12 rounded-xl bg-surface-container-lowest text-primary hover:bg-surface-container-highest transition-all duration-200 flex items-center justify-center gap-2 shadow-sm active:scale-[0.99]" type="button">
+<span class="material-symbols-outlined text-[18px]">assignment_turned_in</span>
+<span class="font-label-lg text-label-lg">Regularize Attendance</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  // Simple micro-interaction for date item taps
+  document.querySelectorAll('.grid-cols-5 > div').forEach((pill) => {
+    pill.addEventListener('click', () => {
+      pill.style.transform = 'scale(0.96)';
+      setTimeout(() => {
+        pill.style.transform = '';
+      }, 150);
+    });
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,35,111,0.04)]" data-active-classes="text-primary font-semibold"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center w-14 h-full text-on-surface-variant hover:text-primary transition-colors" data-path="home" href="#"><span class="material-symbols-outlined text-[24px]">grid_view</span><span class="font-label-sm text-label-sm mt-0.5">Home</span></a><a aria-current="page" class="flex flex-col items-center justify-center w-14 h-full transition-colors text-primary font-semibold" data-path="attendance" href="#"><span class="material-symbols-outlined text-[24px]">schedule</span><span class="font-label-sm text-label-sm mt-0.5">Attendance</span></a><a class="flex flex-col items-center justify-center w-14 h-full text-on-surface-variant hover:text-primary transition-colors" data-path="leaves" href="#"><span class="material-symbols-outlined text-[24px]">event_available</span><span class="font-label-sm text-label-sm mt-0.5">Leaves</span></a><a class="flex flex-col items-center justify-center w-14 h-full text-on-surface-variant hover:text-primary transition-colors" data-path="payroll" href="#"><span class="material-symbols-outlined text-[24px]">payments</span><span class="font-label-sm text-label-sm mt-0.5">Payroll</span></a><a class="flex flex-col items-center justify-center w-14 h-full text-on-surface-variant hover:text-primary transition-colors" data-path="directory" href="#"><span class="material-symbols-outlined text-[24px]">group</span><span class="font-label-sm text-label-sm mt-0.5">Directory</span></a></div></nav></body></html>

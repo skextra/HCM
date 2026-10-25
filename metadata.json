@@ -1,0 +1,6 @@
+{
+  "name": "PulseHR Enterprise HCM",
+  "description": "Enterprise Human Capital Management & Workforce Operations suite for attendance tracking, shift logging, leave governance, payroll and salary receipts, and employee directory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
